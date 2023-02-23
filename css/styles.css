@@ -121,3 +121,13 @@
 }
 
 
+.fondoH{
+  height: 179vh;
+  font-family: "calibri";
+  background-image: url(../imagenes/patio4k.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  background-attachment: fixed;
+}
