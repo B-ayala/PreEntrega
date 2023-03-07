@@ -42,7 +42,7 @@
               <a class="nav-link" href="./sobreMi.html">Sobre mi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./sobreMi.html">Habilidades</a>
+              <a class="nav-link" href="./habilidades.html">Habilidades</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./resume.html">Resume</a>
@@ -92,17 +92,76 @@
         </div>  
       </nav>
 
+      <div class="fondoC">
+
+        <div class="contact_form">
+
+          <div class="formulario">      
+            <h1>Formulario de contacto</h1>
+              <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>  
+                <form action="submeter-formulario.php" method="post">       
+                      <p>
+                        <label for="nombre" class="colocar_nombre">Nombre
+                          <span class="obligatorio">*</span>
+                        </label>
+                          <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                      </p>
+                    
+                      <p>
+                        <label for="email" class="colocar_email">Email
+                          <span class="obligatorio">*</span>
+                        </label>
+                          <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                      </p>
+                  
+                      <p>
+                        <label for="telefone" class="colocar_telefono">Teléfono
+                        </label>
+                          <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                      </p>    
+                    
+                      <p>
+                        <label for="website" class="colocar_website">Sitio web
+                        </label>
+                          <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                      </p>    
+                    
+                      <p>
+                        <label for="asunto" class="colocar_asunto">Asunto
+                          <span class="obligatorio">*</span>
+                        </label>
+                          <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                      </p>    
+                    
+                      <p>
+                        <label for="mensaje" class="colocar_mensaje">Mensaje
+                          <span class="obligatorio">*</span>
+                        </label>                     
+                                          <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                      </p>                    
+                    
+                      <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+      
+                      <p class="aviso">
+                        <span class="obligatorio"> * </span>los campos son obligatorios.
+                      </p>          
+                  
+                </form>
+          </div>  
+        </div>
+      </div>
     
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    
+    <footer class="bg-light text-center text-lg-start">
+      <div class="text-center p-3 text-white" style="background-color: #454545;">
+        © 2022 Copyright:
+        <a class="text-white" href="https://www.linkedin.com/in/brian-alan-ayala-b16309ab/">Brian Ayala</a>
+      </div>
+    </footer>
 
   </body>
-  <footer class="bg-light text-center text-lg-start">
-    <div class="text-center p-3 text-white" style="background-color: #454545;">
-      © 2022 Copyright:
-      <a class="text-white" href="https://www.linkedin.com/in/brian-alan-ayala-b16309ab/">Brian Ayala</a>
-    </div>
-  </footer>
+
 </html>
