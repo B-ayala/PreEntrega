@@ -1,0 +1,69 @@
+body{
+    height: 100%; 
+    font-family: 'Noto Sans', sans-serif;
+    background-color: red; 
+  }
+  
+  
+.fondoH {
+	height: 179vh;
+
+	background-image: url(../imagenes/fondo\ beige.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+	background-attachment: fixed;
+}
+
+
+.fondoSobremi {
+	height: 179vh;
+
+	background-image: url(../imagenes/fondo\ beige.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+	background-attachment: fixed;
+}
+
+.pantalla {
+	height: 179vh;
+
+	background-image: url(../imagenes/coffe.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+	background-attachment: fixed;
+	h1 {
+		position: absolute;
+		top: 63%;
+		margin-left: 459px;
+	}
+}
+
+
+.fondoR {
+	height: 179vh;
+	background-image: url(../imagenes/fondo\ beige.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+	background-attachment: fixed;
+
+    h1 {
+        color: black;
+    }
+}
+.fondoC {
+	height: 179vh;
+	background-image: url(../imagenes/fondo\ beige.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+	background-attachment: fixed;
+}

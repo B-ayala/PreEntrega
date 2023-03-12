@@ -1,0 +1,5 @@
+@keyframes skills-bar-fill {
+	to {
+		transform: translateX(var(--skill-bar-length));
+	}
+}

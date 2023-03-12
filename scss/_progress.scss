@@ -1,0 +1,85 @@
+
+.column {
+	display: grid;
+	gap: 0.5em;
+}
+.skills {
+	padding: 1em 0;
+}
+.skills__item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.skills__bar {
+	position: relative;
+	width: 175px;
+	height: 8px;
+	background-color: $background-color_1;
+	border-radius: var(--border-radius);
+	margin-right: 166px;
+	overflow: hidden;
+	margin-top: -13px;
+	&::after {
+		position: relative;
+		width: 175px;
+		height: 8px;
+		background-color: $background-color_1;
+		border-radius: var(--border-radius);
+		margin-right: 166px;
+		overflow: hidden;
+		margin-top: -13px;
+		content: '';
+		position: absolute;
+		background-color: $background-color_2;
+		transition: var(--transition);
+		left: -175px;
+		animation: skills-bar-fill 2s ease-in-out forwards;
+		margin-top: 0px;
+	}
+}
+.skills__bar--10 {
+	&::after {
+		--skill-bar-length: 10%;
+	}
+}
+.skills__bar--20 {
+	&::after {
+		--skill-bar-length: 10%;
+	}
+}
+.skills__bar--30 {
+	&::after {
+		--skill-bar-length: 10%;
+	}
+}
+.skills__bar--40 {
+	&::after {
+		--skill-bar-length: 10%;
+	}
+}
+.skills__bar--50 {
+	&::after {
+		--skill-bar-length: 10%;
+	}
+}
+.skills__bar--60 {
+	&::after {
+		--skill-bar-length: 10%;
+	}
+}
+.skills__bar--70 {
+	&::after {
+		--skill-bar-length: 70%;
+	}
+}
+.skills__bar--80 {
+	&::after {
+		--skill-bar-length: 80%;
+	}
+}
+.skills__bar--90 {
+	&::after {
+		--skill-bar-length: 90%;
+	}
+}

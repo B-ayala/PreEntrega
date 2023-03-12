@@ -1,0 +1,21 @@
+/*mixin*/
+//  los mixin pueden ser con paremetros o sin parametros
+
+// mixin sin parametros
+@mixin parrafos {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.parrafosConEstilo {
+    @include parrafos;
+}
+
+// // mixin con parametros
+// @mixin parrafoConParametros($size, $alineacion){
+//     font-size: $size;
+//     text-align: $alineacion;
+// }
+
+// .parrafosConP{
+//     @include parrafoConParametros(50px, right )
+// }

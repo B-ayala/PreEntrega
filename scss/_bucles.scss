@@ -1,0 +1,17 @@
+// /*bucles*/
+
+// @for $i from 2 through 6 {
+//     h#{$i} {
+//         font-size: $i * 2rem;
+//     }
+// }
+
+// // $lista: valor, valor2, valor3;
+
+// $colores: 'pink', 'green', 'black';
+
+// @each $color in $colores {
+//     .#{$color} {
+//         color: #{$color};
+//     }
+// }
