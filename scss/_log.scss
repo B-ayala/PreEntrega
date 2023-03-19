@@ -1,0 +1,15 @@
+.logo {
+	height: 40px;
+}
+li {
+	a.active {
+		background: orange;
+		transition: .5s;
+	}
+	a {
+		&:hover {
+			background: orange;
+			transition: .5s;
+		}
+	}
+}

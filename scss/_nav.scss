@@ -1,0 +1,23 @@
+
+
+nav {
+	background: #1c1c1c;
+	height: 80px;
+	width: 100%;
+	ul {
+		float: right;
+		margin-right: 20px;
+		li {
+			display: inline-block;
+			line-height: 80px;
+			margin: 0 5px;
+			a {
+				// color: $color_1;
+				font-size: 18px;
+				padding: 7px 13px;
+				border-radius: 3px;
+				text-transform: uppercase;
+			}
+		}
+	}
+}

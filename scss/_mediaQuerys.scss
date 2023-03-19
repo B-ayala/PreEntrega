@@ -1,96 +1,62 @@
-@media (max-width: 667px) {
-	.general {
+@media (max-width: 952px) {
+	.enlace {
+		padding-left: 20px;
+	}
+	nav {
+		ul {
+			li {
+				a {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 858px) {
+	.checkbtn {
+		display: block;
+	}
+	ul {
+		position: fixed;
 		width: 100%;
-	}
-    .Welcome{
-        margin-top: -150px;
-        margin-left: 17px !important;
-    }
-	.subtitle {
-		margin-left: 17px !important;
-        margin-top: 10px !important;
-	}
-	.subtitle2 {
-		margin-left: 61px !important;
-		color: $color_1;
-		margin: 0 0 10px 0;
-		font-size: 42px;
-		font-weight: 700;
-		line-height: 284px;
+		height: 100vh;
+		background: #2c3e50;
+		top: 80px;
+		left: -100%;
 		text-align: center;
+		transition: all .5s;
+	}
+	nav {
+		ul {
+			li {
+				display: block;
+				margin: 50px 0;
+				line-height: 30px;
+				a {
+					font-size: 20px;
+				}
+			}
+		}
+	}
+	li {
+		a {
+			&:hover {
+				background: none;
+		
+			}
+		}
+		a.active {
+			background: none;
+		
+		}
+	}
+	#check {
+		&:checked {
+			~ {
+				ul {
+					left: 0;
+				}
+			}
+		}
 	}
 }
-@media (max-width: 578px) {
-	.subtitle2 {
-		margin-left: 61px !important;
-		color: $color_1;
-		// margin: 0 0 10px 0;
-		font-size: 35px;
-		font-weight: 500;
-		line-height: 147px;
-		text-align: center;
-		margin-top: 150px;
-	}
-}
-@media only screen and (min-width: 600px) {
-    .Welcome{
-        margin-top: -150px;
-        margin-left: 224px !important;
-    }
-	.subtitle {
-		margin-left: 224px !important;
-	}
-	.subtitle2 {
-		margin-left: 193px !important;
-	}
-}
-@media only screen and (min-width: 768px) {
-    .Welcome{
-        margin-top: -150px;
-        margin-left: 440px !important;
-    }
-	.subtitle {
-		margin-left: 440px !important;
-	}
-	.subtitle2 {
-		margin-left: 440px !important;
-        margin-top: 100px;
-	}
-    
-}
-@media only screen and (min-width: 720px) {
-	.column--right {
-		grid-template-columns: repeat(3,1fr);
-		grid-template-rows: repeat(3,min-content);
-	}
-    .generalContact{
- 
-        height: 200vh;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-	.general {
-        width: 122%;
-	}
-    .subtitle{
-        margin-top: -150px;
-    }
-    .generalContact{
-        width: 122%;
-        height: 1000vh;
-        height: 200vh;
-    }
-    .Welcome{
-        margin-top: -74px;
-    }
-}
-
-
-// @media only screen and (max-width: 1142px) {
-
-//     .subtitle{
-//         margin-top: -1000px !important;
-//     }
- 
-// }
